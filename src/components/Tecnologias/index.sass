@@ -1,0 +1,33 @@
+@use './../../styles/variables'
+@use './../../styles/mixins'
+
+.tecnologias
+  margin-bottom: 1rem
+
+  .tecnologias_grid
+    display: flex
+    gap: 1.5rem
+    flex-wrap: wrap
+
+    .tecnologias_card
+      @include mixins.center
+      gap: 1rem
+      padding: 1rem
+      border: 1px solid #333
+      width: 45%
+      border-radius: variables.$card-border-radius
+
+      svg
+        font-size: 12rem
+        color: #e93b81
+
+      div
+        h3
+          color: variables.$text-color
+          margin-bottom: 1rem
+    #java
+      svg
+        color: #e93b81
+
+
+
