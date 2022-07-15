@@ -3,9 +3,9 @@ import './index.sass';
 
 const MainContent = () => {
     return (
-        <div>
+        <main id={'main_content'}>
             MainContent
-        </div>
+        </main>
     );
 };
 
