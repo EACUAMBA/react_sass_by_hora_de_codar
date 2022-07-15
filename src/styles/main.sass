@@ -1,0 +1,14 @@
+@use './variables' //Usamos o @use 'path' para importar um outro arquivo sass.
+
+*
+  padding: 0
+  margin: 0
+  font-family: variables.$font-stack, sans-serif
+  box-sizing: border-box
+
+  body
+    background-color: variables.$body-color
+
+    a, svg
+      transition: svg .4s
+
